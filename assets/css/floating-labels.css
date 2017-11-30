@@ -1,0 +1,43 @@
+.floating-label-form-group {
+
+  margin-bottom: 0;
+  position: relative;
+}
+
+.floating-label-form-group input,
+.floating-label-form-group textarea {
+  background: none;
+  box-shadow: none !important;
+  margin-bottom: 0;
+  position: relative;
+  z-index: 1;
+  font-size: 1.5em;
+  resize: none;
+}
+  
+.floating-label-form-group label {
+  display: block;
+  position: relative;
+  top: 2em;
+  opacity: 0;
+  z-index: 999;
+  font-size: 0.85em;
+  line-height: 1.764705882em;
+  vertical-align: middle;
+  vertical-align: baseline;
+  margin: 0;
+  -webkit-transition: top 0.5s ease, opacity 0.5s ease;
+     -moz-transition: top 0.5s ease, opacity 0.5s ease;
+      -ms-transition: top 0.5s ease, opacity 0.5s ease;
+          transition: top 0.5s ease, opacity 0.5s ease;
+}
+
+.floating-label-form-group-with-value label {
+  top: -50px;
+  opacity: 1;
+  font-size: 0.8em;
+}
+
+.floating-label-form-group-with-focus label {
+  color: #BCB9B8;
+}
