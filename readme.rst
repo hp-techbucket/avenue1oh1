@@ -2,4 +2,4 @@
 Avenue 1 OH 1
 ###################
 
-eCommerce Platform For Fashion
+eCommerce Fashion Platform developed in Codeigniter
